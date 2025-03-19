@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { MockIngestionModule } from './mock-ingestion/mock-ingestion.module';
+import { RedisModule } from './core/redis/redis.module';
 
 @Module({
-  imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  imports: [MockIngestionModule, RedisModule],
+  controllers: [],
+  providers: [],
 })
 export class AppModule {}
