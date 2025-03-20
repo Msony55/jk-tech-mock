@@ -38,7 +38,7 @@ A NestJS-based application for managing document ingestion processes with Redis 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Msony55/jk-tech-mock.git
    cd ingestion-control
 
 2. Install dependencies:
